@@ -7,7 +7,7 @@ namespace Integra.DbExecutor
     /// <summary>
     /// Base class for integration test that will be used IDbExecutor for work with database
     /// </summary>
-    public abstract class IntegrationTest
+    public abstract class DbIntegrationTest
     {
         public IDbExecutorFactory DbExecutorFactory { get; private set; }
         
