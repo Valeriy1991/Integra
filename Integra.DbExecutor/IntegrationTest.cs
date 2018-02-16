@@ -1,7 +1,6 @@
 ﻿using System;
 using DbConn.DbExecutor.Abstract;
 using DbConn.DbExecutor.Dapper;
-using NUnit.Framework;
 
 namespace Integra.DbExecutor
 {
@@ -12,7 +11,6 @@ namespace Integra.DbExecutor
     {
         public IDbExecutorFactory DbExecutorFactory { get; private set; }
         
-        [SetUp]
         public virtual void Init()
         {
             SetDbExecutorFactory();

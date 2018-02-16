@@ -16,7 +16,6 @@
 
   <ItemGroup>
     <PackageReference Include="DbConn.DbExecutor.Dapper" Version="1.0.1-alpha4" />
-    <PackageReference Include="NUnit" Version="3.9.0" />
   </ItemGroup>
 
 </Project>
